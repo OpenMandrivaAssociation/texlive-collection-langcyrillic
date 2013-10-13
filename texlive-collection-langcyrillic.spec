@@ -1,4 +1,4 @@
-# revision 25209
+# revision 30455
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-langcyrillic
 Epoch:		1
-Version:	20120224
+Version:	20131013
 Release:	1
 Summary:	Cyrillic
 Group:		Publishing
@@ -16,6 +16,13 @@ Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-langcy
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
+Requires:	texlive-collection-basic
+Requires:	texlive-collection-latex
+Requires:	texlive-babel-bulgarian
+Requires:	texlive-babel-russian
+Requires:	texlive-babel-serbian
+Requires:	texlive-babel-serbianc
+Requires:	texlive-babel-ukraineb
 Requires:	texlive-cmcyr
 Requires:	texlive-cyrillic
 Requires:	texlive-cyrillic-bin
@@ -24,21 +31,36 @@ Requires:	texlive-disser
 Requires:	texlive-eskd
 Requires:	texlive-eskdx
 Requires:	texlive-gost
+Requires:	texlive-hyphen-bulgarian
+Requires:	texlive-hyphen-mongolian
+Requires:	texlive-hyphen-russian
+Requires:	texlive-hyphen-serbian
+Requires:	texlive-hyphen-ukrainian
 Requires:	texlive-lcyw
 Requires:	texlive-lh
 Requires:	texlive-lhcyr
+Requires:	texlive-lshort-bulgarian
+Requires:	texlive-lshort-mongol
+Requires:	texlive-lshort-russian
+Requires:	texlive-lshort-ukr
+Requires:	texlive-mongolian-babel
+Requires:	texlive-montex
+Requires:	texlive-mpman-ru
+Requires:	texlive-pst-eucl-translation-bg
 Requires:	texlive-ruhyphen
 Requires:	texlive-russ
+Requires:	texlive-serbian-apostrophe
+Requires:	texlive-serbian-date-lat
+Requires:	texlive-serbian-def-cyr
+Requires:	texlive-serbian-lig
 Requires:	texlive-t2
+Requires:	texlive-texlive-ru
+Requires:	texlive-texlive-sr
 Requires:	texlive-ukrhyph
-Requires:	texlive-hyphen-bulgarian
-Requires:	texlive-hyphen-russian
-Requires:	texlive-hyphen-ukrainian
-Requires:	texlive-collection-basic
-Requires:	texlive-collection-latex
 
 %description
-Support for typesetting Cyrillic.
+Support for Cyrillic scripts (Bulgarian, Russian, Serbian,
+Ukrainian), even if Latin alphabets may also be used.
 
 #-----------------------------------------------------------------------
 %files
@@ -50,12 +72,3 @@ Support for typesetting Cyrillic.
 %build
 
 %install
-
-
-%changelog
-* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120224-1
-+ Revision: 780343
-- Update to latest release.
-- Import texlive-collection-langcyrillic
-- Import texlive-collection-langcyrillic
-
