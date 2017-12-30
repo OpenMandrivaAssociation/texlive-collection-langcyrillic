@@ -6,8 +6,8 @@
 # catalog-version undef
 Name:		texlive-collection-langcyrillic
 Epoch:		1
-Version:	20131013
-Release:	9
+Version:	20170727
+Release:	1
 Summary:	Cyrillic
 Group:		Publishing
 URL:		http://tug.org/texlive
