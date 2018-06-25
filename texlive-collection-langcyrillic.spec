@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-langcyrillic
 Epoch:		1
-Version:	20170727
+Version:	20180303
 Release:	1
 Summary:	Cyrillic
 Group:		Publishing
