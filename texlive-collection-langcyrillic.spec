@@ -31,6 +31,7 @@ Requires:	texlive-disser
 Requires:	texlive-eskd
 Requires:	texlive-eskdx
 Requires:	texlive-gost
+Requires:	texlive-hyphen-belarusian
 Requires:	texlive-hyphen-bulgarian
 Requires:	texlive-hyphen-mongolian
 Requires:	texlive-hyphen-russian
