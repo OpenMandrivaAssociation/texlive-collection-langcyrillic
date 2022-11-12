@@ -1,18 +1,12 @@
-# revision 30455
-# category Collection
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
 Name:		texlive-collection-langcyrillic
 Epoch:		1
-Version:	20190228
+Version:	54074
 Release:	1
 Summary:	Cyrillic
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-langcyrillic.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-langcyrillic.r54074.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -68,7 +62,7 @@ Ukrainian), even if Latin alphabets may also be used.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0
+%autosetup -p1 -c
 
 %build
 
