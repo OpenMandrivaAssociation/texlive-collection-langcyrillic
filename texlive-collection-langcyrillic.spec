@@ -1,7 +1,7 @@
 Name:		texlive-collection-langcyrillic
 Epoch:		1
 Version:	54074
-Release:	1
+Release:	2
 Summary:	Cyrillic
 Group:		Publishing
 URL:		http://tug.org/texlive
